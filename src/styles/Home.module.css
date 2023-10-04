@@ -1,0 +1,36 @@
+.navbar{
+  display: flex;
+  justify-content: flex-start;
+  gap:20px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.nav{
+  border-radius: 20px;
+  background-color:#F1E5FE;
+  padding: 10px;
+  min-width: 5%;
+  text-align: center;
+}
+
+.active{
+  background-color: 	#0006b1;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  min-width: 5%;
+  text-align: center;
+}
+
+.view_all{
+  display: flex;
+  gap: 2px;
+  border: 1px solid #0006b1;
+  color: #0006b1;
+  border-radius: 20px;
+  padding: 10px;
+  min-width: 5%;
+  align-items: center;
+  margin-left: 58%;
+}

@@ -1,0 +1,33 @@
+.features{
+    width: 18rem;
+    height: 20%;
+    display: flex;
+   margin-left: 3%;
+
+}
+
+.feature_wrap{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.icon{
+    color: grey;
+}
+
+.icon_text{
+    font-size: 15px;
+    color: grey;
+    font-weight: 600;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    
+    min-width: 100px;
+}

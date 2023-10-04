@@ -1,0 +1,25 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  
+  
+  .show{
+    display: flex;
+    justify-content: center;
+    background-color: #0006b1;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    margin: 30px 0 0 50% ;
+    align-items: center;
+  }
+  
+  .icon{
+    height: 15px;
+  }

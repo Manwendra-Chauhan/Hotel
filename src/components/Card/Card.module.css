@@ -1,0 +1,69 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    width: 25rem;
+    height: 70vh;
+    margin-top: 2%;
+    background-color: #F5EEFE;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+    
+}
+
+.top{
+    position: absolute;
+    display: flex;
+    gap: 270px;
+    z-index: 1;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.type{
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: #0006b1;
+    font-weight: 700;
+}
+
+.like{
+    color: #0006b1;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 50px;
+}
+
+
+.card_image{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+    font-weight: 500;
+}
+
+.location_icon{
+    color: orange;
+    height: 20px;
+}
+
+
+
+.card_name{
+    color: rgb(82, 80, 80);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 5% 2%;
+    max-width: 90%;
+}

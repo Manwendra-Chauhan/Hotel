@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 30px;
+    color: #371F76;
+}
+
+.content{
+    max-width:40%;
+    text-align: center;
+}
